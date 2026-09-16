@@ -152,7 +152,7 @@ project:
     - file: article.md
     - file: data.md
     - file: supplementary.md
-    - title: Reproducing Figures
+    - title: Reproducible Figures
       children:
         - file: reproducing_figures/Figure_1.md
         - file: reproducing_figures/Figure_2.md
