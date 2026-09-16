@@ -203,6 +203,20 @@ Three synteny groups (#3, #8, #9) reside within 10 kb upstream of the _Afp_ TSS 
 **g,** Subview of panel **e** spanning -10 kb to +2 kb of the _Afp_ TSS across 136 species.
 :::
 
+:::{figure #fig6e-interactive}
+```{anywidget css="./widgets/fig6e.css"} ./widgets/fig6e.js
+{
+"data\_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/data",
+"gene": "AFP",
+"chrom": "chr4",
+"pos": 73436220,
+"cell\_type": "Hepatocytes",
+"window\_kb": 100
+}
+```
+Predicted hepatocyte chromatin accessibility from STEAM-v1 across 136 mammalian species within 200 kb of the _Afp_ TSS. Left: phylogenetic tree for the 136 species. Middle: 621 hepatocyte enhancers colored by synteny group (as in panel **d**). Right: Predicted hepatocyte chromatin accessibility.
+:::
+
 **<u>STEAM-v1 enables inference of human genome-wide enhancer landscapes</u>**
 
 We applied STEAM-v1 to the human (hg38) and mouse (mm10) reference genomes at 100-bp tiling resolution to generate genome-wide distal enhancer prediction tracks across 32 cell classes, which collectively encompass all major lineages of the developing mammal (_HumMus-v1_ tracks; [**<u>Supplementary File 3</u>**](https://shendure-web.gs.washington.edu/content/members/cxqiu/public/backup/jax_atac/download/Supplementary_File_3_Evolution_Augmented_Model_Predict_On_Mouse_Genome.bed.gz), [**<u>Supplementary File 4</u>**](https://shendure-web.gs.washington.edu/content/members/cxqiu/public/backup/jax_atac/download/Supplementary_File_4_Evolution_Augmented_Model_Predict_On_Human_Genome.bed.gz)). Repeating the human-mouse ortholog comparison previously performed on the 354,450 evolution-aware windows [@sfig11 a-b], we find that both correlation and attenuation are substantially improved with STEAM-v1 (Pearson’s _r =_ 0.67; log{sub}`2` fold-difference _Hs_/_Mm_: median -0.23, mean: -0.28; @sfig11 [e-f]).

@@ -161,6 +161,21 @@ p
 
 +++
 
+## Fig. 6e (interactive)
+
+```{anywidget css="../widgets/fig6e.css"} ../widgets/fig6e.js
+{
+"data\_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/data",
+"gene": "AFP",
+"chrom": "chr4",
+"pos": 73436220,
+"cell\_type": "Hepatocytes",
+"window\_kb": 100
+}
+```
+
++++
+
 ## Fig. 6f
 
 Zoom-in -10k to +2k of Afp TSS region.
