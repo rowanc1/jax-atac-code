@@ -165,7 +165,7 @@ p
 
 ```{anywidget css="../widgets/fig6e.css"} ../widgets/fig6e.js
 {
-"data\_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/data",
+"data_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/full",
 "gene": "AFP",
 "chrom": "chr4",
 "pos": 73436220,

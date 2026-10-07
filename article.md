@@ -206,12 +206,12 @@ Three synteny groups (#3, #8, #9) reside within 10 kb upstream of the _Afp_ TSS 
 :::{figure #fig6e-interactive}
 ```{anywidget css="./widgets/fig6e.css"} ./widgets/fig6e.js
 {
-"data\_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/data",
+"data_url": "https://cn-scms-datastore.s3.us-east-1.amazonaws.com/csev-steam-1/full",
 "gene": "AFP",
 "chrom": "chr4",
 "pos": 73436220,
-"cell\_type": "Hepatocytes",
-"window\_kb": 100
+"cell_type": "Hepatocytes",
+"window_kb": 100
 }
 ```
 Predicted hepatocyte chromatin accessibility from STEAM-v1 across 136 mammalian species within 200 kb of the _Afp_ TSS. Left: phylogenetic tree for the 136 species. Middle: 621 hepatocyte enhancers colored by synteny group (as in panel **d**). Right: Predicted hepatocyte chromatin accessibility.
